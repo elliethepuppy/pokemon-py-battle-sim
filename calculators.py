@@ -6,7 +6,8 @@ from type_aliases import Pokemon
 def damage_calc(rel_atk: int, rel_def: int, level: int, power: int | float, damage_modifier: float) -> int:
     damage: int = round(((((((2 * level) / 5) + 2) * power * (rel_atk / rel_def)) / 50) + 2) *
                         (random.randint(85, 100) / 100))
-
+    if random.randint(1, 24) / 24 == 1/24:
+        damage_modifier *= 1.5
     damage *= damage_modifier
 
     return damage
