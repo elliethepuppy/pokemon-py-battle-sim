@@ -1,3 +1,5 @@
+THIS REPO IS NO LONGER BEING DEVELOPED. IT WILL BE ARCHIVED. IT MAY RETURN LATER DOWN THE LINE, IDK I JUST DON'T HAVE THE ENERGY OR EVEN REMEMBER ENOUGH ABOUT IT TO WORK ON IT.
+
 GOAL: A highly-extensible Pokemon battle simulator, with the ability for the end user to easily add their own abilities, moves, Pokemon, items, etc. Ideally it will be simple to adapt it to a graphical interface and to set up PvP battles. I'm not trying to run Showdown out of business, just trying to fill a niche.
 
 ~~PROGRESS: Damage has all appropriate type modifications, speed and priority are implemented, as is protect. Stat mods 
